@@ -86,6 +86,7 @@
     border-radius: 40px;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .button-about-me:hover {
