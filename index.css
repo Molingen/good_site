@@ -24,6 +24,12 @@
     justify-content: space-around;
 }
 
+@media (max-width: 1024px) {
+    .header__container {
+        height: 240px;
+    }
+}
+
 .header__nickname {
     font-weight: 600;
     font-size: 40px;
@@ -36,6 +42,12 @@
     flex-direction: row;
     gap: 40px;
     padding: 25px;
+}
+
+@media (max-width: 1024px) {
+    .nav__list {
+        flex-direction:column;
+    }
 }
 
 .nav__element {
@@ -58,16 +70,28 @@
     justify-content:space-around;
 }
 
-.about-me {
-    width: 400px;
-    height: 300px;
-    color:#ffffff;
-    font-weight: 500;
+@media (max-width: 1024px) {
+    .section-container {
+        flex-direction: column-reverse;
+    }
 }
 
 .about-me-h2 {
     margin-bottom: 40px;
     font-size: 30px;
+}
+
+@media (max-width: 1024px) {
+    .about-me-h2 {
+        margin-top: -90px;
+    }
+}
+
+.about-me {
+    width: 400px;
+    height: 300px;
+    color:#ffffff;
+    font-weight: 500;
 }
 
 .about-me-p {
@@ -89,6 +113,12 @@
     cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+    .button-about-me {
+        margin-top: 20px;
+    }
+}
+
 .button-about-me:hover {
     background-color: #f3caca;
 }
@@ -98,7 +128,13 @@
     border-bottom: 5px solid #d9d9d9;
 }
 
-/* вторая часть */
+@media (max-width: 1024px) {
+    .img {
+        margin-top: 30px;
+    }
+}
+
+/* вторая часть (я умею)*/
 
 .my-possibilities-section {
     background-color: #eaded4;
@@ -124,6 +160,12 @@
 .my-possibilities-container {
     display: flex;
     gap: 15px;
+}
+
+@media (max-width: 1024px) {
+    .my-possibilities-container {
+        flex-direction: column;
+    }
 }
 
 .my-possibilities-element {
