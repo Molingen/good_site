@@ -163,7 +163,7 @@
 }
 
 @media (max-width: 1024px) {
-    .my-possibilities-container {
+    .my-possibilities-container{
         flex-direction: column;
     }
 }
