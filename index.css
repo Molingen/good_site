@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
+html {
+    scroll-behavior:smooth;
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -788,7 +792,7 @@
     font-weight: 600;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 360px) {
     .footer-nickname {
         font-size: 20px;
     }
