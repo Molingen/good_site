@@ -30,11 +30,23 @@
     }
 }
 
+@media (max-width: 360px) {
+    .header__container {
+        height: 70px;
+    }
+}
+
 .header__nickname {
     font-weight: 600;
     font-size: 40px;
     color: #ffffff;
     padding: 25px;
+}
+
+@media (max-width: 360px) {
+    .header__nickname {
+        font-size: 20px;
+    }
 }
 
 .nav__list {
@@ -44,10 +56,16 @@
     padding: 25px;
 }
 
+@media (max-width: 360px) {
+    .nav__list {
+        gap: 10px;
+    }
+}
+
 @media (max-width: 1024px) {
     .nav__list {
         flex-direction:column;
-        gap: 25px;
+        gap: 2px;
     }
 }
 
@@ -59,9 +77,17 @@
     text-decoration: none;
 }
 
+@media (max-width: 1024px) {
+    .nav__element {
+        font-size: 16px;
+    }
+}
+
 .nav__element:hover {
     color: #f3caca;
 }
+
+/*первая часть*/
 
 .section-container {
     background-color: #07203f;
@@ -78,6 +104,13 @@
     }
 }
 
+@media (max-width: 360px) {
+    .section-container {
+        height: 600px;
+        flex-direction: column-reverse;
+    }
+}
+
 .about-me-h2 {
     margin-bottom: 40px;
     font-size: 30px;
@@ -89,6 +122,13 @@
     }
 }
 
+@media (max-width: 360px) {
+    .about-me-h2 {
+        font-size: 18px;
+        margin-top: -70px;
+    }
+}
+
 .about-me {
     width: 400px;
     height: 300px;
@@ -96,10 +136,26 @@
     font-weight: 500;
 }
 
+@media (max-width: 360px) {
+    .about-me {
+        width: 200px;
+        height: 150px;
+    }
+}
+
 .about-me-p {
     width: 410px;
     height: 150px;
     font-size: 24px;
+}
+
+@media (max-width: 360px) {
+    .about-me-p {
+        font-size: 16px;
+        width: 260px;
+        height: 100px;
+        margin-top: -10px;
+    }
 }
 
 .button-about-me {
@@ -121,6 +177,15 @@
     }
 }
 
+@media (max-width: 360px) {
+    .button-about-me {
+        height: 35px;
+        width: 200px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+}
+
 .button-about-me:hover {
     background-color: #f3caca;
 }
@@ -136,6 +201,14 @@
     }
 }
 
+@media (max-width: 360px) {
+    .img {
+        width: 230px;
+        margin-top: -15px;
+    }
+}
+
+
 /* вторая часть (я умею)*/
 
 .my-possibilities-section {
@@ -147,6 +220,12 @@
 @media (max-width: 1024px) {
     .my-possibilities-section {
         height: 1200px;
+    }
+}
+
+@media (max-width: 360px) {
+    .my-possibilities-section {
+        height: 500px;
     }
 }
 
@@ -171,6 +250,13 @@
     }
 }
 
+@media (max-width: 360px) {
+    .my-possibilities-h2 {
+        font-size: 20px;
+        margin: 40px;
+    }
+}
+
 .my-possibilities-container {
     display: flex;
     gap: 15px;
@@ -180,6 +266,14 @@
     .my-possibilities-container {
         flex-direction: column;
         gap: 0px;
+    }
+}
+
+@media (max-width: 360px) {
+    .my-possibilities-container {
+        flex-direction: column;
+        gap: 2px;
+        margin-top: 40px;
     }
 }
 
@@ -205,6 +299,16 @@
     }
 }
 
+@media (max-width: 360px) {
+    .my-possibilities-element {
+        width: 100px;
+        height: 100px;
+        font-size: 16px;
+        position:unset;
+        margin-bottom: 60px;
+    }
+}
+
 .my-possibilities-element-2 {
     width: 450px;
     height: 450px;
@@ -223,6 +327,16 @@
         width: 350px;
         height: 350px;
         margin-top: -50px;
+    }
+}
+
+@media (max-width: 360px) {
+    .my-possibilities-element-2 {
+        width: 100px;
+        height: 100px;
+        font-size: 16px;
+        position:unset;
+        margin-bottom: 60px;
     }
 }
 
@@ -245,6 +359,15 @@
         height: 350px;
         margin-top: -50px;
         right: -200px;
+    }
+}
+
+@media (max-width: 360px) {
+    .my-possibilities-element-3 {
+        width: 100px;
+        height: 100px;
+        font-size: 16px;
+        position:unset;
     }
 }
 
