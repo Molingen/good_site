@@ -34,7 +34,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .header__container {
         height: 70px;
     }
@@ -47,7 +47,7 @@ html {
     padding: 25px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .header__nickname {
         font-size: 20px;
     }
@@ -68,7 +68,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .nav__list {
         gap: 1px;
         flex-direction:column;
@@ -83,7 +83,7 @@ html {
     text-decoration: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .nav__element {
         font-size: 16px;
     }
@@ -110,7 +110,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .section-container {
         height: 600px;
         flex-direction: column-reverse;
@@ -128,7 +128,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .about-me-h2 {
         font-size: 18px;
         margin-top: -70px;
@@ -142,7 +142,7 @@ html {
     font-weight: 500;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .about-me {
         width: 200px;
         height: 150px;
@@ -155,7 +155,7 @@ html {
     font-size: 24px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .about-me-p {
         font-size: 16px;
         width: 260px;
@@ -183,7 +183,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .button-about-me {
         height: 35px;
         width: 200px;
@@ -207,7 +207,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .img {
         width: 230px;
         margin-top: -15px;
@@ -229,7 +229,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-possibilities-section {
         height: 500px;
     }
@@ -256,7 +256,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-possibilities-h2 {
         font-size: 20px;
         margin: 40px;
@@ -275,7 +275,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-possibilities-container {
         flex-direction: column;
         gap: 2px;
@@ -305,7 +305,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-possibilities-element {
         width: 100px;
         height: 100px;
@@ -336,7 +336,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-possibilities-element-2 {
         width: 100px;
         height: 100px;
@@ -368,7 +368,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-possibilities-element-3 {
         width: 100px;
         height: 100px;
@@ -391,7 +391,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-projects-section {
         height: 1100px;
     }
@@ -414,7 +414,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-projects-h2 {
         font-size: 20px;
         padding-top: 50px;
@@ -435,7 +435,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-projects1 {
         flex-direction: column-reverse;
         margin-top: 70px;
@@ -470,7 +470,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-projects-h3 {
         position: unset;
         font-size: 18px;
@@ -491,7 +491,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-projects-h3-2 {
         position: unset;
         font-size: 18px;
@@ -509,7 +509,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-projects-image {
         width: 320px;
     }
@@ -528,7 +528,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-projects-p-2 {
         font-size: 16px;
         position: unset;
@@ -549,7 +549,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-projects-p {
         font-size: 16px;
         position: unset;
@@ -571,7 +571,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .my-projects-text {
         display: flex;
         flex-direction: column;
@@ -596,7 +596,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .contacts-section {
         height: 600px;
     }
@@ -626,7 +626,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .contacts-h2 {
         font-size: 20px;
         margin-top: 30px;
@@ -651,7 +651,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .contacts-list {
         flex-direction: column;
         gap: 20px;
@@ -674,7 +674,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .contacts-element {
         height: 150px;
         width: 150px;
@@ -697,7 +697,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .contacts-h3 {
         margin-top: 50px;
         margin-bottom: 30px;
@@ -723,7 +723,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .contacts-a {
         padding: 15px 15px;
         font-size: 16px;
@@ -746,7 +746,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .contacts-element2 {
         height: 150px;
         width: 150px;
@@ -779,7 +779,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .footer-container {
         height: 70px;
     }
@@ -792,7 +792,7 @@ html {
     font-weight: 600;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .footer-nickname {
         font-size: 20px;
     }
@@ -810,7 +810,7 @@ html {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .navlist {
         flex-direction: column;
         gap: 1px;
@@ -824,7 +824,7 @@ html {
     color: white;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .footer-link {
         font-size: 16px;
     }
